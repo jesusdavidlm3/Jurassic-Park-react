@@ -1,0 +1,134 @@
+body{
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;
+}
+
+h1, h2{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+header{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to bottom right, rgba(240, 0, 0, 0.7), rgba(0, 0, 240, 0.6));
+    border-radius: 1rem;
+    backdrop-filter: blur(2px);
+}
+
+#logo{
+    width: 12rem;
+    float: right;
+    position: relative;
+    right: 2rem;
+    top: 0.6rem;
+}
+
+header h1{
+    color: white;
+    font-size: 3.5rem;
+    float: left;
+    position: relative;
+    top: 0.5rem;
+    left: 3rem;
+}
+
+
+#reg{
+    background: linear-gradient(to bottom right, rgba(240, 0, 0, 0.7), rgba(0, 0, 240, 0.6));
+    backdrop-filter: blur(2px);
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 0 auto;    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#reg h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.form-field{
+    width: 70%;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.submit-but{
+    margin: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 2rem;
+    width: 5rem;
+    border-style: none;
+    transition: all.45s ease;
+}
+
+.submit-but:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+label{
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+footer{
+   height: 6rem;
+   background: linear-gradient(to right, rgba(240, 0, 0, 0.7), rgba(0, 0, 240, 0.6));
+   border-radius: 1rem;
+   backdrop-filter: blur(2px);
+}
+
+footer a{
+    transition: all .45s ease;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    position: relative;
+    top: 2rem;
+}
+
+a:hover{
+    text-shadow: 5px 5px 5px black;
+    color: blueviolet;
+}
+
+footer .jp-link{
+    float: left;
+    left: 5rem;
+}
+
+footer .jw-link{
+    float: right;
+    right: 5rem;
+}
+
+form a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
